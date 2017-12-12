@@ -1,0 +1,52 @@
+.title {
+  background-color: #A50315;
+}
+
+h1 {
+  padding: .2em 0;
+  color: #FFF;
+  text-align: center;
+}
+
+.fotos {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 90vh;
+}
+
+#img1 {
+  background-image: url(../img/mario1.jpg);
+}
+
+#img2 {
+  background-image: url(../img/mario2.jpg);
+}
+
+#img3 {
+  background-image: url(../img/mario3.jpg);
+}
+
+#img4 {
+  background-image: url(../img/mario4.jpg);
+}
+
+#img5 {
+  background-image: url(../img/mario5.jpg);
+}
+
+.circle {
+  position: absolute;
+  bottom: 1em;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.fa-circle {
+  margin: .5em;
+  color: #FFF;
+  cursor: pointer;
+}
